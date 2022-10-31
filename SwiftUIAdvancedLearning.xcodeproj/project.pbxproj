@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		685F8323290FDBEF00D9D843 /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F8322290FDBEF00D9D843 /* PreferenceKeyBootcamp.swift */; };
+		685F8326291005D700D9D843 /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F8325291005D700D9D843 /* GeometryPreferenceKeyBootcamp.swift */; };
+		685F8328291009E800D9D843 /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F8327291009E800D9D843 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */; };
 		68B80FFF290EB2C700EC1734 /* SwiftUIAdvancedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B80FFE290EB2C700EC1734 /* SwiftUIAdvancedLearningApp.swift */; };
 		68B81003290EB2C800EC1734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B81002290EB2C800EC1734 /* Assets.xcassets */; };
 		68B81006290EB2C800EC1734 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B81005290EB2C800EC1734 /* Preview Assets.xcassets */; };
@@ -17,9 +20,14 @@
 		68B81015290F631800EC1734 /* CustomShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B81014290F631800EC1734 /* CustomShapesBootcamp.swift */; };
 		68B81017290F67EE00EC1734 /* CustomCurvesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B81016290F67EE00EC1734 /* CustomCurvesBootcamp.swift */; };
 		68B81019290F6D8F00EC1734 /* AnimateableDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B81018290F6D8F00EC1734 /* AnimateableDataBootcamp.swift */; };
+		68B8101B290F7A2C00EC1734 /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B8101A290F7A2C00EC1734 /* GenericsBootcamp.swift */; };
+		68B8101D290F9C7800EC1734 /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B8101C290F9C7800EC1734 /* ViewBuilderBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		685F8322290FDBEF00D9D843 /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		685F8325291005D700D9D843 /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		685F8327291009E800D9D843 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		68B80FFB290EB2C700EC1734 /* SwiftUIAdvancedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAdvancedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B80FFE290EB2C700EC1734 /* SwiftUIAdvancedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAdvancedLearningApp.swift; sourceTree = "<group>"; };
 		68B81002290EB2C800EC1734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -31,6 +39,8 @@
 		68B81014290F631800EC1734 /* CustomShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesBootcamp.swift; sourceTree = "<group>"; };
 		68B81016290F67EE00EC1734 /* CustomCurvesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootcamp.swift; sourceTree = "<group>"; };
 		68B81018290F6D8F00EC1734 /* AnimateableDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateableDataBootcamp.swift; sourceTree = "<group>"; };
+		68B8101A290F7A2C00EC1734 /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
+		68B8101C290F9C7800EC1734 /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +54,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		685F8324291005B800D9D843 /* PreferenceKeyBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				685F8322290FDBEF00D9D843 /* PreferenceKeyBootcamp.swift */,
+				685F8325291005D700D9D843 /* GeometryPreferenceKeyBootcamp.swift */,
+				685F8327291009E800D9D843 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */,
+			);
+			path = PreferenceKeyBootcamp;
+			sourceTree = "<group>";
+		};
 		68B80FF2290EB2C700EC1734 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +91,9 @@
 				68B81014290F631800EC1734 /* CustomShapesBootcamp.swift */,
 				68B81016290F67EE00EC1734 /* CustomCurvesBootcamp.swift */,
 				68B81018290F6D8F00EC1734 /* AnimateableDataBootcamp.swift */,
+				68B8101A290F7A2C00EC1734 /* GenericsBootcamp.swift */,
+				68B8101C290F9C7800EC1734 /* ViewBuilderBootcamp.swift */,
+				685F8324291005B800D9D843 /* PreferenceKeyBootcamp */,
 				68B81002290EB2C800EC1734 /* Assets.xcassets */,
 				68B81004290EB2C800EC1734 /* Preview Content */,
 			);
@@ -160,8 +183,13 @@
 				68B81019290F6D8F00EC1734 /* AnimateableDataBootcamp.swift in Sources */,
 				68B81011290F4D4900EC1734 /* AnyTransitionBootcamp.swift in Sources */,
 				68B80FFF290EB2C700EC1734 /* SwiftUIAdvancedLearningApp.swift in Sources */,
+				68B8101D290F9C7800EC1734 /* ViewBuilderBootcamp.swift in Sources */,
+				68B8101B290F7A2C00EC1734 /* GenericsBootcamp.swift in Sources */,
+				685F8326291005D700D9D843 /* GeometryPreferenceKeyBootcamp.swift in Sources */,
 				68B81013290F5CDC00EC1734 /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				68B81015290F631800EC1734 /* CustomShapesBootcamp.swift in Sources */,
+				685F8323290FDBEF00D9D843 /* PreferenceKeyBootcamp.swift in Sources */,
+				685F8328291009E800D9D843 /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				68B81017290F67EE00EC1734 /* CustomCurvesBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
