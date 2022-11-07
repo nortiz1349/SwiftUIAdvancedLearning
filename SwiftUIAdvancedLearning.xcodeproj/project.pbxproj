@@ -27,6 +27,8 @@
 		685F83402910CB3700D9D843 /* CustomNavBarPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F833F2910CB3700D9D843 /* CustomNavBarPreferenceKey.swift */; };
 		685F83422910F23100D9D843 /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F83412910F23100D9D843 /* UIViewRepresentableBootcamp.swift */; };
 		685F8344291102AB00D9D843 /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F8343291102AB00D9D843 /* UIViewControllerRepresentableBootcamp.swift */; };
+		6861E06629152D7600402142 /* AdvancedCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6861E06529152D7600402142 /* AdvancedCombineBootcamp.swift */; };
+		6867EA8629189CA300A62DEE /* CloudKitUserBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867EA8529189CA300A62DEE /* CloudKitUserBootcamp.swift */; };
 		68B80FFF290EB2C700EC1734 /* SwiftUIAdvancedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B80FFE290EB2C700EC1734 /* SwiftUIAdvancedLearningApp.swift */; };
 		68B81003290EB2C800EC1734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B81002290EB2C800EC1734 /* Assets.xcassets */; };
 		68B81006290EB2C800EC1734 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B81005290EB2C800EC1734 /* Preview Assets.xcassets */; };
@@ -88,6 +90,9 @@
 		685F833F2910CB3700D9D843 /* CustomNavBarPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKey.swift; sourceTree = "<group>"; };
 		685F83412910F23100D9D843 /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		685F8343291102AB00D9D843 /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		6861E06529152D7600402142 /* AdvancedCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombineBootcamp.swift; sourceTree = "<group>"; };
+		6867EA8529189CA300A62DEE /* CloudKitUserBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUserBootcamp.swift; sourceTree = "<group>"; };
+		6867EA8729189D2400A62DEE /* SwiftUIAdvancedLearning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIAdvancedLearning.entitlements; sourceTree = "<group>"; };
 		68B80FFB290EB2C700EC1734 /* SwiftUIAdvancedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAdvancedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B80FFE290EB2C700EC1734 /* SwiftUIAdvancedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAdvancedLearningApp.swift; sourceTree = "<group>"; };
 		68B81002290EB2C800EC1734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -192,6 +197,14 @@
 			path = CustomNavBar;
 			sourceTree = "<group>";
 		};
+		6867EA8429189C8700A62DEE /* CloudKitBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				6867EA8529189CA300A62DEE /* CloudKitUserBootcamp.swift */,
+			);
+			path = CloudKitBootcamp;
+			sourceTree = "<group>";
+		};
 		68B80FF2290EB2C700EC1734 = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +228,7 @@
 		68B80FFD290EB2C700EC1734 /* SwiftUIAdvancedLearning */ = {
 			isa = PBXGroup;
 			children = (
+				6867EA8729189D2400A62DEE /* SwiftUIAdvancedLearning.entitlements */,
 				68B80FFE290EB2C700EC1734 /* SwiftUIAdvancedLearningApp.swift */,
 				68B8100C290EB2FA00EC1734 /* ViewModifierBootcamp.swift */,
 				68B8100E290F49D100EC1734 /* ButtonStyleBootcamp.swift */,
@@ -234,6 +248,8 @@
 				68FBD29C291206BA0096E5BD /* DependencyInjectionBootcamp.swift */,
 				68468767291235D100066E3D /* UnitTestingBootcamp */,
 				68F246A32913717B007AE95F /* UITestingBootcampView.swift */,
+				6861E06529152D7600402142 /* AdvancedCombineBootcamp.swift */,
+				6867EA8429189C8700A62DEE /* CloudKitBootcamp */,
 				68B81002290EB2C800EC1734 /* Assets.xcassets */,
 				68B81004290EB2C800EC1734 /* Preview Content */,
 			);
@@ -412,6 +428,8 @@
 				68B81011290F4D4900EC1734 /* AnyTransitionBootcamp.swift in Sources */,
 				68B80FFF290EB2C700EC1734 /* SwiftUIAdvancedLearningApp.swift in Sources */,
 				685F832D291092D500D9D843 /* CustomTabBarView.swift in Sources */,
+				6867EA8629189CA300A62DEE /* CloudKitUserBootcamp.swift in Sources */,
+				6861E06629152D7600402142 /* AdvancedCombineBootcamp.swift in Sources */,
 				685F833C2910C0E200D9D843 /* CustomNavView.swift in Sources */,
 				685F83382910BD8D00D9D843 /* CustomNavBarView.swift in Sources */,
 				68B8101D290F9C7800EC1734 /* ViewBuilderBootcamp.swift in Sources */,
@@ -614,6 +632,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIAdvancedLearning/SwiftUIAdvancedLearning.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAdvancedLearning/Preview Content\"";
@@ -643,6 +662,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIAdvancedLearning/SwiftUIAdvancedLearning.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAdvancedLearning/Preview Content\"";
