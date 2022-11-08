@@ -29,6 +29,7 @@
 		685F8344291102AB00D9D843 /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F8343291102AB00D9D843 /* UIViewControllerRepresentableBootcamp.swift */; };
 		6861E06629152D7600402142 /* AdvancedCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6861E06529152D7600402142 /* AdvancedCombineBootcamp.swift */; };
 		6867EA8629189CA300A62DEE /* CloudKitUserBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867EA8529189CA300A62DEE /* CloudKitUserBootcamp.swift */; };
+		6867EA892919129700A62DEE /* CloudKitCrudBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867EA882919129700A62DEE /* CloudKitCrudBootcamp.swift */; };
 		68B80FFF290EB2C700EC1734 /* SwiftUIAdvancedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B80FFE290EB2C700EC1734 /* SwiftUIAdvancedLearningApp.swift */; };
 		68B81003290EB2C800EC1734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B81002290EB2C800EC1734 /* Assets.xcassets */; };
 		68B81006290EB2C800EC1734 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B81005290EB2C800EC1734 /* Preview Assets.xcassets */; };
@@ -93,6 +94,7 @@
 		6861E06529152D7600402142 /* AdvancedCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombineBootcamp.swift; sourceTree = "<group>"; };
 		6867EA8529189CA300A62DEE /* CloudKitUserBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUserBootcamp.swift; sourceTree = "<group>"; };
 		6867EA8729189D2400A62DEE /* SwiftUIAdvancedLearning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIAdvancedLearning.entitlements; sourceTree = "<group>"; };
+		6867EA882919129700A62DEE /* CloudKitCrudBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitCrudBootcamp.swift; sourceTree = "<group>"; };
 		68B80FFB290EB2C700EC1734 /* SwiftUIAdvancedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAdvancedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B80FFE290EB2C700EC1734 /* SwiftUIAdvancedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAdvancedLearningApp.swift; sourceTree = "<group>"; };
 		68B81002290EB2C800EC1734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				6867EA8529189CA300A62DEE /* CloudKitUserBootcamp.swift */,
+				6867EA882919129700A62DEE /* CloudKitCrudBootcamp.swift */,
 			);
 			path = CloudKitBootcamp;
 			sourceTree = "<group>";
@@ -420,6 +423,7 @@
 				685F83362910BA4300D9D843 /* AppNavBarView.swift in Sources */,
 				685F83312910AA8F00D9D843 /* TabBarItemsPreferenceKey.swift in Sources */,
 				68468769291235EA00066E3D /* UnitTestingBootcampView.swift in Sources */,
+				6867EA892919129700A62DEE /* CloudKitCrudBootcamp.swift in Sources */,
 				685F832B291091E100D9D843 /* AppTabBarView.swift in Sources */,
 				685F83422910F23100D9D843 /* UIViewRepresentableBootcamp.swift in Sources */,
 				68B8100F290F49D100EC1734 /* ButtonStyleBootcamp.swift in Sources */,
